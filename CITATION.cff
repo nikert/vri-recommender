@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software or method in academic work, please cite as below."
+type: software
+title: "vri-recommender: Naive Bayes + Silverman KDE classifier for permitted land use type recommendation"
+authors:
+  - family-names: "Dmitriev"
+    given-names: "Nikita"
+    affiliation: "ITMO University, Institute of Design and Urbanism"
+    city: "Saint Petersburg"
+    country: "RU"
+abstract: >
+  A method for recommending permitted land use types (ВРИ) for site-planning
+  parcels under the Rosreestr Classifier № П/0412. Posterior probability is
+  decomposed into a Potential index (P) and an Effect index (E) and aggregated
+  as the geometric mean S = √(P·E). Validated on 196,695 EGRN parcels from the
+  Republic of Altai with spatial leave-one-out cross-validation (top-1 accuracy
+  85.13%, top-3 94.03%, log-loss 0.584). Pilot application: Manzherok rural
+  settlement, Mayminsky District.
+keywords:
+  - naive-bayes
+  - kernel-density-estimation
+  - geospatial
+  - urban-planning
+  - land-use
+  - gis
+  - rosreestr
+license: MIT
+repository-code: "https://github.com/nikert/vri-recommender"
+version: "8.4"
+date-released: 2026-04-13
+preferred-citation:
+  type: thesis
+  title: "Разработка метода выбора разрешённого использования территории проектирования"
+  authors:
+    - family-names: "Дмитриев"
+      given-names: "Никита Вячеславович"
+  year: 2026
+  thesis-type: "Магистерская диссертация"
+  institution:
+    name: "Университет ИТМО, Институт дизайна и урбанистики"
+    city: "Санкт-Петербург"
+    country: "RU"

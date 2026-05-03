@@ -1,0 +1,12 @@
+# Core scientific stack
+numpy>=1.24,<3.0
+scipy>=1.11
+
+# Geospatial
+geopandas>=0.14
+shapely>=2.0
+pyproj>=3.6
+rasterio>=1.3
+
+# Visualization
+matplotlib>=3.7

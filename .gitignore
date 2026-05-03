@@ -1,0 +1,55 @@
+# ─── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ─── Виртуальные окружения ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── IDE / редакторы ─────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── ОС ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Большие данные (хранятся в Releases) ────────────────────────────────
+*.gpkg
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+# Исключения: сохраняем малые .geojson из data/
+!data/*.geojson
+# но если в data/ окажется большой geojson (zouit ≈ 70 МБ) — игнорируем явно:
+data/zouit.geojson
+data/egrn.geojson
+data/egrn_features.gpkg
+
+# ─── Временные результаты прогонов ───────────────────────────────────────
+results_*/
+*.log
+
+# ─── Jupyter ─────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
